@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  background-color: whitesmoke;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 30px;
+}
+#wrapper main {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  align-items: center;
+}
+#header {
+  width: 100%;
+}
+#titulo {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  font-weight: 300;
+  font-size: 2rem;
+  width: 100%;
+}
+#Razas {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#Razas h2 {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px gray;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 200;
+}
+
+#Razas div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  padding: 10px;
+  justify-content: space-around;
+}
+#Razas div div {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 3px 1px gray;
+  align-items: center;
+  border-radius: 5px;
+}
+#Razas div div:hover {
+  box-shadow: 0px 0px 3px 1px black;
+}
+#Razas div div h4 {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+#Razas h4::first-letter {
+  text-transform: uppercase;
+}
+
+#Razas div div p {
+  font-weight: 100;
+}
+
+#Razas div div p::first-letter {
+  text-transform: uppercase;
+}
+#imagenAleatoria {
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px gray;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+#imagenAleatoria h2 {
+  font-weight: 200;
+}
+#imagenAleatoria img {
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 2px rgb(175, 175, 175);
+}
+
+#todasLasImagenesDeUnaRaza {
+  padding: 20px;
+  width: 80%;
+  border-radius: 10px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  box-shadow: 0px 0px 5px gray;
+  margin-bottom: 50px;
+}
+#todasLasImagenesDeUnaRaza h2 {
+  font-weight: 300;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+#todasLasImagenesDeUnaRaza select {
+  padding: 10px;
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: rgb(238, 238, 238);
+}
+
+#imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+#imagenes img {
+  width: 250px;
+  height: 100%;
+  box-shadow: 0px 0px 4px 0px black;
+  background-color: black;
+  border-radius: 5px;
+}
